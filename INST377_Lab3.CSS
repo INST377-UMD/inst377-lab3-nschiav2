@@ -1,0 +1,98 @@
+    /* Set backgroud color*/
+    body {
+      background-color: #92dce5;
+    }
+
+    /* Header & Footer (using the same styling) */
+    #bar {
+      text-align: center;
+      color: white;
+      background-color: #7c7c7c;
+      padding: 5px;
+      font-family: cursive;
+      clear: both;
+      margin: 10px 0;
+    }
+
+    /* Navigation styling */
+    #main-nav {
+      background-color: crimson;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    /* Nav hover effect */
+    #main-nav li:hover{
+        background-color: darkred;
+        color: white;
+    }
+    /* Nav expanded */
+    #main-nav ul li {
+      list-style-type: none;
+      display: inline-block;
+      position: center;
+      padding: 10px;
+    }
+
+    /* Nav links */
+    #main-nav ul li a {
+      text-decoration: none;
+      color: white;
+      padding: 10px;
+      display: block;
+    }
+
+    /* Main container holding both content and sidebar */
+    .main-container {
+        border: 2px solid black;
+        width: 100%;
+        margin-bottom: 5px;
+        overflow: hidden;
+    }
+
+    /* Main Content Area */
+    .content-area {
+      width: 65%;
+      float: left;
+      margin: 0;
+      padding: 10px;
+    }
+
+    /* Content Box Style */
+    .content-box {
+      background-color: aliceblue;
+      color: black;
+      border: 2px solid black;
+      padding: 5px;
+      border-radius: 15px;
+      margin: 5px;
+    }
+
+    /* Sidebar style */
+    #contact {
+      text-align: center;
+      background-color: rgb(13, 165, 13);
+      float: right;
+      width: 25%;
+      margin: 20;
+      margin-right: 20px;
+      border: 2px solid black;
+      border-radius: 30px;
+      padding: 15px;
+    }
+
+    /* Sidebar hover effect */
+    #contact:hover {
+      background-color: #ffa500;
+    }
+
+    /* Text input styling */
+    input[type="text"] {
+      width: 150px;
+      transition: width 0.3s ease;
+    }
+
+    /* On depression, the text box expands */
+    input[type="text"]:focus {
+      width: 200px;
+    }
